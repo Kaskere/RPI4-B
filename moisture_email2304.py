@@ -8,7 +8,7 @@ channel = 17
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(channel, GPIO.IN)
 
-###needs update
+###need to update email security settings
 def send_email(message):
     mail = smtplib.SMTP('smtp.gmail.com', 587)
     mail.ehlo()
